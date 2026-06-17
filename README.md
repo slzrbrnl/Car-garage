@@ -16,7 +16,7 @@ A command-line application to manage a car garage: add, search, update, delete a
 ## How to run
 
 ```bash
-python3 "project one.py"
+python3 garage.py
 ```
 
 You'll see a menu with options:
