@@ -2,25 +2,70 @@
 <html>
 <head>
     <title>My Garage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6B8E23;
+            color: #222;
+            padding: 25px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #EAFFB7;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .car-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .car-list li {
+            background-color: white;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            border-left: 4px solid #1D9E75;
+        }
+        a {
+    display: inline-block;
+    background-color: #1D9E75;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+a:hover {
+    background-color: #156b4e;
+}
+    </style>
 </head>
 <body>
+
     <h1>My Car Collection</h1>
     <h2>About me</h2>
     <p>I'm Angel, learning software engineering and 
     I love <strong>automotive technology</strong>.</p>
     <p>My dream car is an <em>McLaren 720S</em>.</p>
+    
     <h2>My favorite cars</h2>
-<ul>
-    <li>Pagani Huayra</li>
-    <li>Porsche 911</li>
-    <li>Lamborghini Revuelto</li>
-</ul>
+    <ul class="car-list">
+        <li>Pagani Huayra</li>
+        <li>Porsche 911</li>
+        <li>Lamborghini Revuelto</li>
+    </ul>
 
+    <img src="https://placehold.co/400x250" alt="My dream car">
 
-<img src="https://placehold.co/400x250" alt="My dream car">
-
- <p>Check out my code on 
- <a href="https://github.com/slzrbrnl/Car-garage">GitHub</a>
- </p>
+    <p>Check out my code on 
+    <a href="https://github.com/slzrbrnl/Car-garage">GitHub</a>
+    </p>
 </body>
 </html>
